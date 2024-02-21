@@ -1,0 +1,6 @@
+
+
+for php grah.
+
+install phplot
+then uncomment : extension=gd

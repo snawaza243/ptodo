@@ -1,0 +1,37 @@
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-list li {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-info {
+    flex: 1;
+}
+
+.task-priority,
+.task-status {
+    flex-basis: 100px; /* Adjust the width as needed */
+}
+
+.task-info h3 {
+    margin: 0;
+}
+
+.task-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.task-status label {
+    margin-left: 10px;
+}

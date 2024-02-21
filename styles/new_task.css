@@ -1,0 +1,139 @@
+:root {
+    --blueB: #1e90ff;
+    --blueBB: #0d5fb1;
+    --redB: #e74c3c;
+    --redBB: #9d2214;
+    --whiteB: #ffffff;
+    --whiteBB: #f4f4f4;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+}
+
+textarea {
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+}
+
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+
+    background-color: var(--blueB);
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 0;
+
+}
+
+button[type="submit"]:hover {
+    background-color: var(--blueBB);
+    ;
+
+}
+
+
+#cancelButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--redB);
+    ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 0;
+
+}
+
+#cancelButton:hover {
+    background-color: var(--redBB);
+    ;
+}
+
+.errors {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: var(--redB);
+}
+
+.errors li {
+    margin-bottom: 5px;
+}
+
+#form-status {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+}
+
+.field-single {
+    display: flex;
+    align-content: space-between;
+}
+
+.field-single label {
+    width: 150px;
+}
+
+.field-single input,
+.field-single select {
+    width: 150px;
+}
